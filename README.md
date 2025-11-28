@@ -43,9 +43,13 @@ This repository provides:
 Steps performed to clean and prepare the dataset:
 
 **Missing Values** Checking and handling missing data.
+
 **Duplicate Values** Identifying and removing duplicate entries.
+
 **Outliers** Detecting outliers using methods such as boxplot, Z-score, or IQR.
+
 **Imbalanced Data** Inspecting target label distribution; applying SMOTE or undersampling when needed.
+
 **Feature Encoding** Transforming categorical features into numerical form using Label Encoding or One-Hot Encoding.
 
 ---
@@ -54,9 +58,13 @@ Steps performed to clean and prepare the dataset:
 Initial analysis to understand the structure and patterns of the dataset:
 
 **Data Types** Identifying nominal, ordinal, and numerical features.
+
 **Mean, Median, Mode** Explaining when each central tendency measure is appropriate.
+
 **Five Number Summary** Includes: minimum, Q1, median, Q3, maximum.
+
 **Data Distribution** Using histograms, density plots, pairplots, and other distribution visualizations.
+
 **Visualization** Correlation heatmaps, bar plots, box plots, scatter plots, and additional supporting visualizations.
 
 ---
@@ -82,8 +90,11 @@ Used for training and evaluating models.
 Modeling process includes:
 
 **Cross Validation** Ensuring model stability and reducing overfitting.
+
 **Hyperparameter Tuning** Optimizing model parameters using GridSearchCV or RandomizedSearchCV.
+
 **Model Exploration** Testing various algorithms such as Logistic Regression, Random Forest, SVM, KNN, etc.
+
 **Learning Curves** Analyzing model performance based on the amount of training data.
 
 ---
